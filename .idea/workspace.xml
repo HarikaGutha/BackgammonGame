@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3d95f12-bce9-4df3-95f0-12cc07b59727" name="Default Changelist" comment="- formatted and documented the api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stacs/arcade/backgammon/BackgammonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacs/arcade/backgammon/BackgammonModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BackgammonModelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BackgammonModelTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Harika Gutha &lt;hg64@st-andrews.ac.uk&gt;" />
+        <option value="190026870" />
+        <option value="190026397" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1YX6x2JlSr9SYRNUHD1blj3KZj3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacs.arcade.Main" />
+      <module name="Backgammon.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacs.arcade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackgammonAPITests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backgammon.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BackgammonAPITests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackgammonAPITests.testNewGameMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backgammon.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BackgammonAPITests" />
+      <option name="METHOD_NAME" value="testNewGameMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackgammonModelTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backgammon.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BackgammonModelTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackgammonModelTests.checkPiecesInHomePosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backgammon.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BackgammonModelTests" />
+      <option name="METHOD_NAME" value="checkPiecesInHomePosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackgammonModelTests.mustRejectMovesWithTheSameDice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backgammon.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BackgammonModelTests" />
+      <option name="METHOD_NAME" value="mustRejectMovesWithTheSameDice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BackgammonModelTests" />
+        <item itemvalue="JUnit.BackgammonModelTests.mustRejectMovesWithTheSameDice" />
+        <item itemvalue="JUnit.BackgammonAPITests" />
+        <item itemvalue="JUnit.BackgammonAPITests.testNewGameMethod" />
+        <item itemvalue="JUnit.BackgammonModelTests.checkPiecesInHomePosition" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3d95f12-bce9-4df3-95f0-12cc07b59727" name="Default Changelist" comment="" />
+      <created>1583076834726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583076834726</updated>
+      <workItem from="1583175041008" duration="4456000" />
+      <workItem from="1583188706461" duration="15302000" />
+    </task>
+    <task id="LOCAL-00001" summary="- Modifies Backgammon.js to display the board on the web browser&#10;- Comment methods on API that cause compilation errors">
+      <created>1583178035907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583178035907</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Modifies Backgammon.js to allow checkers to move on the board and identifying the position of the checker on mouse click.&#10;- implemented api and updated Backgammon.js">
+      <created>1583359315623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583359315623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-updated api and Backgammon.js&#10;-added isCapturing move in api and moveCheckersToTheBar to Backgammon.js.">
+      <created>1583503186514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583503186514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- modified Backgammon.js and disabled start button on loading the board&#10;- changed alignment to the center">
+      <created>1583505337077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583505337077</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-added css file&#10;-modified html and js&#10;-created dice (functionality of dice not implemented yet)">
+      <created>1583532536981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583532536981</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-removed dice on both sides of the board and placed them as common for both the players">
+      <created>1583574173760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583574173760</updated>
+    </task>
+    <task id="LOCAL-00007" summary="-fixed errors in modelTests which are caused by wrong method names in model">
+      <created>1583578388259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583578388259</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-added functionality to dice.">
+      <created>1583579492116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583579492116</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-fixed minor issue in BackgammonModel">
+      <created>1583702620897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583702620897</updated>
+    </task>
+    <task id="LOCAL-00010" summary="-updated rollDice method">
+      <created>1583702702931</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583702702931</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-modofied Backgammon.js based on the retrieved JSON file">
+      <created>1583702752923</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583702752923</updated>
+    </task>
+    <task id="LOCAL-00012" summary="-modified getJson() in model to store dice values.&#10;-modified rollDice() in api">
+      <created>1583744707430</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583744707431</updated>
+    </task>
+    <task id="LOCAL-00013" summary="-updated getFirstPlayerToGo() and rollDice() methods in api">
+      <created>1583750189886</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583750189886</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-resolved issues in BackgammonModelTests">
+      <created>1583750322941</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583750322941</updated>
+    </task>
+    <task id="LOCAL-00015" summary="- fixed issue in Backgammon.js">
+      <created>1583750450398</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583750450398</updated>
+    </task>
+    <task id="LOCAL-00016" summary="-updated rollDice() and getFirstPlayerToGo() methods in api">
+      <created>1583750792933</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583750792933</updated>
+    </task>
+    <task id="LOCAL-00017" summary="- modified getJson to store dice values">
+      <created>1583750854919</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583750854919</updated>
+    </task>
+    <task id="LOCAL-00018" summary="- fixed issues in BackgammonModel class for the dice values">
+      <created>1583760408177</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583760408177</updated>
+    </task>
+    <task id="LOCAL-00019" summary="- modified getJson() method in model to send dice values and firstPlayerToGo">
+      <created>1583760544499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583760544499</updated>
+    </task>
+    <task id="LOCAL-00020" summary="- refactored variable names and resolved warnings">
+      <created>1583760690014</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583760690014</updated>
+    </task>
+    <task id="LOCAL-00021" summary="- refactored variable names">
+      <created>1583760811359</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583760811359</updated>
+    </task>
+    <task id="LOCAL-00022" summary="- solved dice issue in model">
+      <created>1583762208046</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583762208046</updated>
+    </task>
+    <task id="LOCAL-00023" summary="- updated dice logic for Backgammon.js">
+      <created>1583762246919</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1583762246919</updated>
+    </task>
+    <task id="LOCAL-00024" summary="- formatted aligmnet of all files and removed unused methods">
+      <created>1583763244156</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1583763244156</updated>
+    </task>
+    <task id="LOCAL-00025" summary="- documented Backgammon.js&#10;- added logic to dispaly text to the player about the turns">
+      <created>1583788804653</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583788804653</updated>
+    </task>
+    <task id="LOCAL-00026" summary="- refactored methods.&#10;- modified drawCheckersOnTheBar">
+      <created>1583789840764</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583789840764</updated>
+    </task>
+    <task id="LOCAL-00027" summary="- refactored isLegalMove() in js and api &#10;- changed the implementation of playTurn() in api">
+      <created>1583794870137</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583794870137</updated>
+    </task>
+    <task id="LOCAL-00028" summary="- fixed issue in Backgammon.js&#10;- refactored method updateBoard() in js">
+      <created>1583795826756</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583795826756</updated>
+    </task>
+    <task id="LOCAL-00029" summary="- fixed issue in Backgammon.js added an extra checker to the board when a piece was captured.&#10;- Added method draw checker on bearoff">
+      <created>1583841291238</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1583841291238</updated>
+    </task>
+    <task id="LOCAL-00030" summary="- formatted and documented the api">
+      <created>1583864491325</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1583864491325</updated>
+    </task>
+    <task id="LOCAL-00031" summary="- formatted and documented the Backgammon.js">
+      <created>1583865204340</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1583865204340</updated>
+    </task>
+    <task id="LOCAL-00032" summary="- added author to the Backgammon.js file">
+      <created>1583867423547</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1583867423547</updated>
+    </task>
+    <task id="LOCAL-00033" summary="- removed assignFirstPlayerToGo method which returns currentPlayer as the the currentPlayer can be retrieved from the json and it is duplicate">
+      <created>1583868090525</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1583868090525</updated>
+    </task>
+    <task id="LOCAL-00034" summary="- added references to the api">
+      <created>1583868536807</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1583868536807</updated>
+    </task>
+    <task id="LOCAL-00035" summary="- commented the tests and mentioned the reason">
+      <created>1583873663449</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1583873663449</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-modofied Backgammon.js based on the retrieved JSON file" />
+    <MESSAGE value="-modified getJson() in model to store dice values.&#10;-modified rollDice() in api" />
+    <MESSAGE value="-updated getFirstPlayerToGo() and rollDice() methods in api" />
+    <MESSAGE value="-resolved issues in BackgammonModelTests" />
+    <MESSAGE value="- fixed issue in Backgammon.js" />
+    <MESSAGE value="-updated rollDice() and getFirstPlayerToGo() methods in api" />
+    <MESSAGE value="- modified getJson to store dice values" />
+    <MESSAGE value="- fixed issues in BackgammonModel class for the dice values" />
+    <MESSAGE value="- modified getJson() method in model to send dice values and firstPlayerToGo" />
+    <MESSAGE value="- refactored variable names and resolved warnings" />
+    <MESSAGE value="- refactored variable names" />
+    <MESSAGE value="- solved dice issue in model" />
+    <MESSAGE value="- updated dice logic for Backgammon.js" />
+    <MESSAGE value="- formatted aligmnet of all files and removed unused methods" />
+    <MESSAGE value="- documented Backgammon.js&#10;- added logic to dispaly text to the player about the turns" />
+    <MESSAGE value="- refactored methods.&#10;- modified drawCheckersOnTheBar" />
+    <MESSAGE value="- refactored isLegalMove() in js and api &#10;- changed the implementation of playTurn() in api" />
+    <MESSAGE value="- fixed issue in Backgammon.js&#10;- refactored method updateBoard() in js" />
+    <MESSAGE value="- fixed issue in Backgammon.js added an extra checker to the board when a piece was captured.&#10;- Added method draw checker on bearoff" />
+    <MESSAGE value="- formatted and documented the api" />
+    <MESSAGE value="- formatted and documented the Backgammon.js" />
+    <MESSAGE value="- added author to the Backgammon.js file" />
+    <MESSAGE value="- removed assignFirstPlayerToGo method which returns currentPlayer as the the currentPlayer can be retrieved from the json and it is duplicate" />
+    <MESSAGE value="- added references to the api" />
+    <MESSAGE value="- commented the tests and mentioned the reason" />
+    <option name="LAST_COMMIT_MESSAGE" value="- commented the tests and mentioned the reason" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="117" key="#Inspections" timestamp="1583745327660">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="117" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1583745327660" />
+    <state x="334" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583356537316">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583174988282" />
+    <state x="334" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1583356537316" />
+    <state x="444" y="296" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583843451645">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="444" y="296" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1440.900@0.0.1440.900" timestamp="1583843451645" />
+    <state x="658" y="31" width="1354" height="728" key="CommitChangelistDialog2" timestamp="1583873663109">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="12" y="0" width="1354" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583204043240" />
+    <state x="658" y="31" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583873663109" />
+    <state x="18" y="147" width="1902" height="860" key="CommitChangelistDialog2/0.27.1920.1020@0.27.1920.1020" timestamp="1583080375519" />
+    <state x="205" y="54" width="1152" height="720" key="DiffContextDialog" timestamp="1583867407424">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="135" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1583177963469" />
+    <state x="205" y="54" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1583867407424" />
+    <state x="142" y="91" width="1152" height="656" key="DiffContextDialog/0.23.1440.821@0.23.1440.821" timestamp="1583697874282" />
+    <state width="1398" height="337" key="GridCell.Tab.0.bottom" timestamp="1583873354263">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583204078814" />
+    <state width="1398" height="337" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583873354263" />
+    <state width="661" height="124" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1583807633742" />
+    <state width="1498" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1020/1920.0.1920.1080@0.27.1920.1020" timestamp="1583695467465" />
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.27.1920.1020@0.27.1920.1020" timestamp="1583080362810" />
+    <state width="1398" height="337" key="GridCell.Tab.0.center" timestamp="1583873354261">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583204078814" />
+    <state width="1398" height="337" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583873354261" />
+    <state width="661" height="124" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1583807633739" />
+    <state width="1498" height="268" key="GridCell.Tab.0.center/0.27.1920.1020/1920.0.1920.1080@0.27.1920.1020" timestamp="1583695467465" />
+    <state width="1874" height="265" key="GridCell.Tab.0.center/0.27.1920.1020@0.27.1920.1020" timestamp="1583080362809" />
+    <state width="1398" height="337" key="GridCell.Tab.0.left" timestamp="1583873354260">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583204078814" />
+    <state width="1398" height="337" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583873354260" />
+    <state width="661" height="124" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1583807633738" />
+    <state width="1498" height="268" key="GridCell.Tab.0.left/0.27.1920.1020/1920.0.1920.1080@0.27.1920.1020" timestamp="1583695467465" />
+    <state width="1874" height="265" key="GridCell.Tab.0.left/0.27.1920.1020@0.27.1920.1020" timestamp="1583080362809" />
+    <state width="1398" height="337" key="GridCell.Tab.0.right" timestamp="1583873354262">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583204078814" />
+    <state width="1398" height="337" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583873354262" />
+    <state width="661" height="124" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1583807633741" />
+    <state width="1498" height="268" key="GridCell.Tab.0.right/0.27.1920.1020/1920.0.1920.1080@0.27.1920.1020" timestamp="1583695467465" />
+    <state width="1874" height="265" key="GridCell.Tab.0.right/0.27.1920.1020@0.27.1920.1020" timestamp="1583080362810" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583870009648">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583870009648" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583870009646">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583870009646" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583870009646">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583870009646" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583870009647">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583870009647" />
+    <state x="263" y="100" key="IDE.errors.dialog" timestamp="1583174972583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="100" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1583174972583" />
+    <state x="144" y="79" key="MergeDialog" timestamp="1583788898778">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1583788898778" />
+    <state x="433" y="174" key="MultipleFileMergeDialog" timestamp="1583788903994">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="174" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1583788903994" />
+    <state x="469" y="167" key="RollbackChangesDialog" timestamp="1583841373289">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="469" y="167" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1583841373289" />
+    <state x="332" y="24" width="916" height="708" key="SettingsEditor" timestamp="1583843420179">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="315" y="20" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583174844585" />
+    <state x="332" y="24" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583843420179" />
+    <state x="443" y="114" width="1024" height="852" key="SettingsEditor/0.27.1920.1020@0.27.1920.1020" timestamp="1583076901444" />
+    <state x="290" y="121" key="Vcs.Push.Dialog.v2" timestamp="1583873669809">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583178044057" />
+    <state x="290" y="121" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583873669809" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1583934135402">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583934135402" />
+    <state x="519" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583873326950">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1583176719770" />
+    <state x="519" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1583873326950" />
+    <state x="519" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1583697005746" />
+    <state x="346" y="250" key="git4idea.merge.GitPullDialog" timestamp="1583841350455">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="346" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1583841350455" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1583194883531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583194883531" />
+    <state x="365" y="61" width="709" height="839" key="search.everywhere.popup" timestamp="1583843448929">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583202721633" />
+    <state x="365" y="61" width="709" height="839" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583843448929" />
+  </component>
+</project>
